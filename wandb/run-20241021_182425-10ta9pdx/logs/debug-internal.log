@@ -1,0 +1,18 @@
+{"time":"2024-10-21T18:24:25.1884532-06:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-21T18:24:25.188480558-06:00","level":"INFO","msg":"created symlink","path":"/home/sergio/2dgs_slam/wandb/run-20241021_182425-10ta9pdx/logs/debug-core.log"}
+{"time":"2024-10-21T18:24:25.191234136-06:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-21T18:24:25.203850053-06:00","level":"INFO","msg":"created new stream","id":"10ta9pdx"}
+{"time":"2024-10-21T18:24:25.203895757-06:00","level":"INFO","msg":"stream: started","id":"10ta9pdx"}
+{"time":"2024-10-21T18:24:25.203911513-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"10ta9pdx"}}
+{"time":"2024-10-21T18:24:25.203931208-06:00","level":"INFO","msg":"sender: started","stream_id":{"value":"10ta9pdx"}}
+{"time":"2024-10-21T18:24:25.203946274-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"10ta9pdx"}}
+{"time":"2024-10-21T18:24:25.415351782-06:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-21T18:24:25.416590316-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-22T02:14:35.801867696-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10ta9pdx/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:40117->127.0.0.53:53: i/o timeout"}
+{"time":"2024-10-22T11:57:16.763435765-06:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10ta9pdx/file_stream"}
+{"time":"2024-10-22T11:57:19.373977017-06:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10ta9pdx/file_stream"}
+{"time":"2024-10-22T11:57:24.483039372-06:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10ta9pdx/file_stream"}
+{"time":"2024-10-22T12:43:55.887511813-06:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10ta9pdx/file_stream"}
+{"time":"2024-10-22T15:03:25.51423289-06:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10ta9pdx/file_stream"}
+{"time":"2024-10-22T22:28:35.512066663-06:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10ta9pdx/file_stream"}
+{"time":"2024-10-23T01:20:31.557437105-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10ta9pdx/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}

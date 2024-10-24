@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "slam.py", line 214, in <module>
+    slam = SLAM(config, save_dir=save_dir)
+  File "slam.py", line 82, in __init__
+    self.backend.live_mode       = self.live_mode
+AttributeError: 'SLAM' object has no attribute 'live_mode'

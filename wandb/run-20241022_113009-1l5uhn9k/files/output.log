@@ -1,0 +1,66 @@
+0.05244334787130356
+0.0671878308057785
+0.07408856600522995
+0.08147361129522324
+0.08797076344490051
+0.0943174958229065
+0.09962598979473114
+0.10449080914258957
+0.10692838579416275
+0.10676754266023636
+0.1079317107796669
+0.11108250916004181
+0.11150852590799332
+0.11571452021598816
+0.11962717771530151
+0.12392017990350723
+0.12578198313713074
+0.12865886092185974
+0.13090848922729492
+0.13017535209655762
+0.13298164308071136
+0.13531357049942017
+0.13675722479820251
+0.14516086876392365
+0.1483452022075653
+0.1566075086593628
+0.1600813865661621
+0.16835033893585205
+0.17034165561199188
+0.1723884791135788
+0.18073876202106476
+0.18349024653434753
+0.18381160497665405
+0.18923281133174896
+0.1888335943222046
+0.18724152445793152
+0.184327632188797
+0.18443189561367035
+0.18491265177726746
+0.18453603982925415
+0.18396101891994476
+0.19160528481006622
+0.19129061698913574
+0.1920718550682068
+0.18966467678546906
+0.1874438226222992
+0.18457424640655518
+0.18475940823554993
+0.1838252991437912
+[1;32mMonoGS:[0m Evaluating ATE at frame:  [1;36m50[0m
+Traceback (most recent call last):
+  File "slam.py", line 192, in <module>
+    slam = SLAM(config, save_dir=save_dir)
+  File "slam.py", line 89, in __init__
+    self.frontend.run()
+  File "/home/sergio/2dgs_slam/utils/slam_frontend.py", line 228, in run
+    eval_ate(
+  File "/home/sergio/2dgs_slam/utils/eval_utils.py", line 105, in eval_ate
+    ate = evaluate_evo(
+  File "/home/sergio/2dgs_slam/utils/eval_utils.py", line 29, in evaluate_evo
+    traj_est_aligned = trajectory.align_trajectory(
+  File "/home/sergio/anaconda3/envs/surfel_splatting_slam/lib/python3.8/site-packages/evo/core/trajectory.py", line 393, in align_trajectory
+    r_a, t_a, s = geometry.umeyama_alignment(traj_aligned.positions_xyz.T,
+  File "/home/sergio/anaconda3/envs/surfel_splatting_slam/lib/python3.8/site-packages/evo/core/geometry.py", line 64, in umeyama_alignment
+    raise GeometryException("Degenerate covariance rank, "
+evo.core.geometry.GeometryException: Degenerate covariance rank, Umeyama alignment is not possible

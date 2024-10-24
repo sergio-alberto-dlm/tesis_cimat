@@ -1,0 +1,21 @@
+{"time":"2024-10-19T17:56:56.528062116-06:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-19T17:56:56.528074345-06:00","level":"INFO","msg":"created symlink","path":"/home/sergio/2dgs_slam/wandb/run-20241019_175656-jz5ncvnw/logs/debug-core.log"}
+{"time":"2024-10-19T17:56:56.566908432-06:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-19T17:56:56.575404384-06:00","level":"INFO","msg":"created new stream","id":"jz5ncvnw"}
+{"time":"2024-10-19T17:56:56.575446344-06:00","level":"INFO","msg":"stream: started","id":"jz5ncvnw"}
+{"time":"2024-10-19T17:56:56.575495526-06:00","level":"INFO","msg":"sender: started","stream_id":{"value":"jz5ncvnw"}}
+{"time":"2024-10-19T17:56:56.575468256-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"jz5ncvnw"}}
+{"time":"2024-10-19T17:56:56.575487846-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"jz5ncvnw"}}
+{"time":"2024-10-19T17:56:56.850638614-06:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-19T17:56:56.851923343-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-19T17:56:58.930243757-06:00","level":"INFO","msg":"stream: closing","id":"jz5ncvnw"}
+{"time":"2024-10-19T17:56:58.930292626-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-19T17:56:58.932667881-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-19T17:56:59.020919464-06:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-19T17:56:59.020947217-06:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-19T17:56:59.020956338-06:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-19T17:56:59.368286978-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-19T17:56:59.531159964-06:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"jz5ncvnw"}}
+{"time":"2024-10-19T17:56:59.531213646-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"jz5ncvnw"}}
+{"time":"2024-10-19T17:56:59.531223629-06:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"jz5ncvnw"}}
+{"time":"2024-10-19T17:56:59.531295857-06:00","level":"INFO","msg":"stream: closed","id":"jz5ncvnw"}

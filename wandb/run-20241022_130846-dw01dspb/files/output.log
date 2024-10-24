@@ -1,0 +1,68 @@
+/home/sergio/2dgs_slam/utils/slam_frontend.py:140: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at /opt/conda/conda-bld/pytorch_1678402421473/work/build/aten/src/ATen/core/TensorBody.h:486.)
+  print(image.grad)
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[1;32mMonoGS:[0m Evaluating ATE at frame:  [1;36m50[0m
+Traceback (most recent call last):
+  File "slam.py", line 192, in <module>
+    slam = SLAM(config, save_dir=save_dir)
+  File "slam.py", line 89, in __init__
+    self.frontend.run()
+  File "/home/sergio/2dgs_slam/utils/slam_frontend.py", line 230, in run
+    eval_ate(
+  File "/home/sergio/2dgs_slam/utils/eval_utils.py", line 105, in eval_ate
+    ate = evaluate_evo(
+  File "/home/sergio/2dgs_slam/utils/eval_utils.py", line 29, in evaluate_evo
+    traj_est_aligned = trajectory.align_trajectory(
+  File "/home/sergio/anaconda3/envs/surfel_splatting_slam/lib/python3.8/site-packages/evo/core/trajectory.py", line 393, in align_trajectory
+    r_a, t_a, s = geometry.umeyama_alignment(traj_aligned.positions_xyz.T,
+  File "/home/sergio/anaconda3/envs/surfel_splatting_slam/lib/python3.8/site-packages/evo/core/geometry.py", line 64, in umeyama_alignment
+    raise GeometryException("Degenerate covariance rank, "
+evo.core.geometry.GeometryException: Degenerate covariance rank, Umeyama alignment is not possible

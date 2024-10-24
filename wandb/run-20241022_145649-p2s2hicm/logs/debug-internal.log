@@ -1,0 +1,21 @@
+{"time":"2024-10-22T14:56:49.662387789-06:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-22T14:56:49.662411737-06:00","level":"INFO","msg":"created symlink","path":"/home/sergio/2dgs_slam/wandb/run-20241022_145649-p2s2hicm/logs/debug-core.log"}
+{"time":"2024-10-22T14:56:49.665041196-06:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-22T14:56:49.677632352-06:00","level":"INFO","msg":"created new stream","id":"p2s2hicm"}
+{"time":"2024-10-22T14:56:49.677677403-06:00","level":"INFO","msg":"stream: started","id":"p2s2hicm"}
+{"time":"2024-10-22T14:56:49.677698834-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"p2s2hicm"}}
+{"time":"2024-10-22T14:56:49.677720345-06:00","level":"INFO","msg":"sender: started","stream_id":{"value":"p2s2hicm"}}
+{"time":"2024-10-22T14:56:49.677734946-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"p2s2hicm"}}
+{"time":"2024-10-22T14:56:49.925802078-06:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-22T14:56:49.927070354-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-22T14:57:11.746020841-06:00","level":"INFO","msg":"stream: closing","id":"p2s2hicm"}
+{"time":"2024-10-22T14:57:11.746073268-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-22T14:57:11.749169796-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-22T14:57:11.84625724-06:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-22T14:57:11.846286343-06:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-22T14:57:11.84629526-06:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-22T14:57:12.207205638-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-22T14:57:12.367240036-06:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"p2s2hicm"}}
+{"time":"2024-10-22T14:57:12.367288235-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"p2s2hicm"}}
+{"time":"2024-10-22T14:57:12.367309977-06:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"p2s2hicm"}}
+{"time":"2024-10-22T14:57:12.367411615-06:00","level":"INFO","msg":"stream: closed","id":"p2s2hicm"}

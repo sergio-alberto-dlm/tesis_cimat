@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "slam.py", line 192, in <module>
+    slam = SLAM(config, save_dir=save_dir)
+  File "slam.py", line 89, in __init__
+    self.frontend.run()
+  File "/home/sergio/2dgs_slam/utils/slam_frontend.py", line 191, in run
+    time.sleep(0.01)
+KeyboardInterrupt

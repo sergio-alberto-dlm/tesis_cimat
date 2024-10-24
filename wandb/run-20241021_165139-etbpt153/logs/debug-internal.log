@@ -1,0 +1,21 @@
+{"time":"2024-10-21T16:51:39.632134669-06:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-21T16:51:39.632160981-06:00","level":"INFO","msg":"created symlink","path":"/home/sergio/2dgs_slam/wandb/run-20241021_165139-etbpt153/logs/debug-core.log"}
+{"time":"2024-10-21T16:51:39.634633873-06:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-21T16:51:39.647424642-06:00","level":"INFO","msg":"created new stream","id":"etbpt153"}
+{"time":"2024-10-21T16:51:39.647468147-06:00","level":"INFO","msg":"stream: started","id":"etbpt153"}
+{"time":"2024-10-21T16:51:39.647510975-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"etbpt153"}}
+{"time":"2024-10-21T16:51:39.647547287-06:00","level":"INFO","msg":"sender: started","stream_id":{"value":"etbpt153"}}
+{"time":"2024-10-21T16:51:39.6475673-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"etbpt153"}}
+{"time":"2024-10-21T16:51:40.129625865-06:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-21T16:51:40.130963355-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-21T16:51:41.709279004-06:00","level":"INFO","msg":"stream: closing","id":"etbpt153"}
+{"time":"2024-10-21T16:51:41.709329921-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-21T16:51:41.712035278-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-21T16:51:41.798600899-06:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-21T16:51:41.798632226-06:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-21T16:51:41.798642324-06:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-21T16:51:42.250422003-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-21T16:51:42.433176312-06:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"etbpt153"}}
+{"time":"2024-10-21T16:51:42.433241921-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"etbpt153"}}
+{"time":"2024-10-21T16:51:42.433265206-06:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"etbpt153"}}
+{"time":"2024-10-21T16:51:42.433332069-06:00","level":"INFO","msg":"stream: closed","id":"etbpt153"}

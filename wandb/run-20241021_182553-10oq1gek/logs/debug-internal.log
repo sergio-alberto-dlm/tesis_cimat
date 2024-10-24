@@ -1,0 +1,16 @@
+{"time":"2024-10-21T18:25:53.101914428-06:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-21T18:25:53.101951612-06:00","level":"INFO","msg":"created symlink","path":"/home/sergio/2dgs_slam/wandb/run-20241021_182553-10oq1gek/logs/debug-core.log"}
+{"time":"2024-10-21T18:25:53.104897974-06:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-21T18:25:53.117774901-06:00","level":"INFO","msg":"created new stream","id":"10oq1gek"}
+{"time":"2024-10-21T18:25:53.117814888-06:00","level":"INFO","msg":"stream: started","id":"10oq1gek"}
+{"time":"2024-10-21T18:25:53.117876192-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"10oq1gek"}}
+{"time":"2024-10-21T18:25:53.117900389-06:00","level":"INFO","msg":"sender: started","stream_id":{"value":"10oq1gek"}}
+{"time":"2024-10-21T18:25:53.117949909-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"10oq1gek"}}
+{"time":"2024-10-21T18:25:53.314107202-06:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-21T18:25:53.315365773-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-22T11:57:23.931267743-06:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10oq1gek/file_stream"}
+{"time":"2024-10-22T11:57:26.432024835-06:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10oq1gek/file_stream"}
+{"time":"2024-10-22T11:57:30.947925873-06:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10oq1gek/file_stream"}
+{"time":"2024-10-22T12:43:53.742913179-06:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10oq1gek/file_stream"}
+{"time":"2024-10-22T13:23:18.41507222-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/10oq1gek/file_stream"}
+{"time":"2024-10-22T13:23:18.415149469-06:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/sergeodesico-cimat/MonoGS/10oq1gek/file_stream: {\"error\":\"run MonoGS/10oq1gek not found while streaming file\"}"}

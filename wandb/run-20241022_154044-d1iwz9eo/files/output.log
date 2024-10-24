@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "slam.py", line 194, in <module>
+    slam = SLAM(config, save_dir=save_dir)
+  File "slam.py", line 89, in __init__
+    self.frontend.run()
+  File "/home/sergio/2dgs_slam/utils/slam_frontend.py", line 228, in run
+    render_pkg = self.tracking(cur_frame_idx, viewpoint)
+  File "/home/sergio/2dgs_slam/utils/slam_frontend.py", line 132, in tracking
+    image, depth, opacity = viewpoint.original_image ** 2, viewpoint.depth ** 2, torch.ones_like(viewpoint.depth)
+TypeError: ones_like(): argument 'input' (position 1) must be Tensor, not numpy.ndarray

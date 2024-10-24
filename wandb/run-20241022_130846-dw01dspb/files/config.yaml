@@ -1,0 +1,130 @@
+_wandb:
+    value:
+        cli_version: 0.18.3
+        m:
+            - "1": frame_idx
+              "6":
+                - 3
+              "7": []
+        python_version: 3.8.18
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+                - 55
+            "2":
+                - 1
+                - 5
+                - 53
+                - 55
+            "3":
+                - 7
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.8.18
+            "5": 0.18.3
+            "8":
+                - 5
+            "12": 0.18.3
+            "13": linux-x86_64
+Dataset:
+    value:
+        Calibration:
+            cx: 318.64304
+            cy: 255.313989
+            depth_scale: 5000
+            distorted: true
+            fx: 517.306408
+            fy: 516.469215
+            height: 480
+            k1: 0.262383
+            k2: -0.953104
+            k3: 1.163314
+            p1: -0.005358
+            p2: 0.002628
+            width: 640
+        adaptive_pointsize: true
+        dataset_path: datasets/tum/rgbd_dataset_freiburg1_desk
+        pcd_downsample: 128
+        pcd_downsample_init: 32
+        point_size: 0.01
+        sensor_type: depth
+        type: tum
+Results:
+    value:
+        eval_rendering: true
+        save_dir: results/datasets_tum/2024-10-22-13-08-46
+        save_results: true
+        save_trj: true
+        save_trj_kf_intv: 5
+        use_gui: false
+        use_wandb: true
+Training:
+    value:
+        alpha: 0.9
+        edge_threshold: 1.1
+        gaussian_extent: 1
+        gaussian_reset: 2001
+        gaussian_th: 0.7
+        gaussian_update_every: 150
+        gaussian_update_offset: 50
+        init_gaussian_extent: 30
+        init_gaussian_reset: 500
+        init_gaussian_th: 0.005
+        init_gaussian_update: 100
+        init_itr_num: 1050
+        kf_cutoff: 0.3
+        kf_interval: 5
+        kf_min_translation: 0.05
+        kf_overlap: 0.9
+        kf_translation: 0.08
+        lr:
+            cam_rot_delta: 0.003
+            cam_trans_delta: 0.001
+        mapping_itr_num: 150
+        monocular: false
+        pose_window: 3
+        prune_mode: slam
+        rgb_boundary_threshold: 0.01
+        single_thread: false
+        size_threshold: 20
+        spherical_harmonics: false
+        tracking_itr_num: 100
+        window_size: 8
+inherit_from:
+    value: configs/rgbd/tum/base_config.yaml
+model_params:
+    value:
+        data_device: cuda
+        model_path: ""
+        resolution: -1
+        sh_degree: 0
+        source_path: ""
+        white_background: false
+opt_params:
+    value:
+        densification_interval: 100
+        densify_from_iter: 500
+        densify_grad_threshold: 0.0002
+        densify_until_iter: 15000
+        feature_lr: 0.0025
+        iterations: 30000
+        lambda_dssim: 0.2
+        opacity_lr: 0.05
+        opacity_reset_interval: 3000
+        percent_dense: 0.01
+        position_lr_delay_mult: 0.01
+        position_lr_final: 1.6e-06
+        position_lr_init: 0.00016
+        position_lr_max_steps: 30000
+        rotation_lr: 0.001
+        scaling_lr: 0.001
+pipeline_params:
+    value:
+        compute_cov3D_python: false
+        convert_SHs_python: false
+        debug: false
+        depth_ratio: 0

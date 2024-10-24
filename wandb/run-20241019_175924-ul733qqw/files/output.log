@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "slam.py", line 215, in <module>
+    slam = SLAM(config, save_dir=save_dir)
+  File "slam.py", line 89, in __init__
+    backend_process.start()
+  File "/home/sergio/anaconda3/envs/surfel_splatting_slam/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/home/sergio/anaconda3/envs/surfel_splatting_slam/lib/python3.8/multiprocessing/context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/home/sergio/anaconda3/envs/surfel_splatting_slam/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/home/sergio/anaconda3/envs/surfel_splatting_slam/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/home/sergio/anaconda3/envs/surfel_splatting_slam/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/home/sergio/anaconda3/envs/surfel_splatting_slam/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 47, in _launch
+    reduction.dump(process_obj, fp)
+  File "/home/sergio/anaconda3/envs/surfel_splatting_slam/lib/python3.8/multiprocessing/reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+AttributeError: Can't pickle local object 'GaussianModel.setup_functions.<locals>.build_covariance_from_scaling_rotation'

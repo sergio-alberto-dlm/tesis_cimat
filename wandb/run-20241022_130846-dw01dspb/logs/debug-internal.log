@@ -1,0 +1,21 @@
+{"time":"2024-10-22T13:08:46.881269507-06:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-22T13:08:46.881295216-06:00","level":"INFO","msg":"created symlink","path":"/home/sergio/2dgs_slam/wandb/run-20241022_130846-dw01dspb/logs/debug-core.log"}
+{"time":"2024-10-22T13:08:46.918088638-06:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-22T13:08:46.929026939-06:00","level":"INFO","msg":"created new stream","id":"dw01dspb"}
+{"time":"2024-10-22T13:08:46.92907244-06:00","level":"INFO","msg":"stream: started","id":"dw01dspb"}
+{"time":"2024-10-22T13:08:46.929096789-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"dw01dspb"}}
+{"time":"2024-10-22T13:08:46.929115257-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"dw01dspb"}}
+{"time":"2024-10-22T13:08:46.929140717-06:00","level":"INFO","msg":"sender: started","stream_id":{"value":"dw01dspb"}}
+{"time":"2024-10-22T13:08:48.765683281-06:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-22T13:08:48.767189385-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-22T13:09:12.348911064-06:00","level":"INFO","msg":"stream: closing","id":"dw01dspb"}
+{"time":"2024-10-22T13:09:12.348943381-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-22T13:09:12.350811309-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-22T13:09:12.44943968-06:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-22T13:09:12.449463756-06:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-22T13:09:12.449472589-06:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-22T13:09:12.882362629-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-22T13:09:13.056919778-06:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"dw01dspb"}}
+{"time":"2024-10-22T13:09:13.056978641-06:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"dw01dspb"}}
+{"time":"2024-10-22T13:09:13.056974541-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"dw01dspb"}}
+{"time":"2024-10-22T13:09:13.057048317-06:00","level":"INFO","msg":"stream: closed","id":"dw01dspb"}

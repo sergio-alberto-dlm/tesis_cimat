@@ -1,0 +1,19 @@
+{"time":"2024-10-21T18:44:32.575325802-06:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-21T18:44:32.575350752-06:00","level":"INFO","msg":"created symlink","path":"/home/sergio/2dgs_slam/wandb/run-20241021_184432-mc2w2yom/logs/debug-core.log"}
+{"time":"2024-10-21T18:44:32.61295433-06:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-21T18:44:32.625644078-06:00","level":"INFO","msg":"created new stream","id":"mc2w2yom"}
+{"time":"2024-10-21T18:44:32.62569132-06:00","level":"INFO","msg":"stream: started","id":"mc2w2yom"}
+{"time":"2024-10-21T18:44:32.625712616-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"mc2w2yom"}}
+{"time":"2024-10-21T18:44:32.625757969-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"mc2w2yom"}}
+{"time":"2024-10-21T18:44:32.62572995-06:00","level":"INFO","msg":"sender: started","stream_id":{"value":"mc2w2yom"}}
+{"time":"2024-10-21T18:44:33.055148575-06:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-21T18:44:33.056336469-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-21T20:36:48.524628264-06:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/mc2w2yom/file_stream"}
+{"time":"2024-10-22T02:14:03.059958748-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/mc2w2yom/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:39484->127.0.0.53:53: i/o timeout"}
+{"time":"2024-10-22T02:14:25.348470273-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/mc2w2yom/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:32812->127.0.0.53:53: i/o timeout"}
+{"time":"2024-10-22T02:14:37.721072418-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/mc2w2yom/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:53959->127.0.0.53:53: i/o timeout"}
+{"time":"2024-10-22T11:57:23.321518913-06:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/mc2w2yom/file_stream"}
+{"time":"2024-10-22T11:57:25.649598745-06:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/mc2w2yom/file_stream"}
+{"time":"2024-10-22T11:57:33.017489671-06:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/mc2w2yom/file_stream"}
+{"time":"2024-10-22T13:23:08.165038873-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/sergeodesico-cimat/MonoGS/mc2w2yom/file_stream"}
+{"time":"2024-10-22T13:23:08.165129762-06:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/sergeodesico-cimat/MonoGS/mc2w2yom/file_stream: {\"error\":\"run MonoGS/mc2w2yom not found while streaming file\"}"}

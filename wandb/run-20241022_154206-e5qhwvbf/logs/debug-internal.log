@@ -1,0 +1,21 @@
+{"time":"2024-10-22T15:42:06.528074699-06:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-22T15:42:06.528100242-06:00","level":"INFO","msg":"created symlink","path":"/home/sergio/2dgs_slam/wandb/run-20241022_154206-e5qhwvbf/logs/debug-core.log"}
+{"time":"2024-10-22T15:42:06.53102937-06:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-22T15:42:06.544043673-06:00","level":"INFO","msg":"created new stream","id":"e5qhwvbf"}
+{"time":"2024-10-22T15:42:06.544097917-06:00","level":"INFO","msg":"stream: started","id":"e5qhwvbf"}
+{"time":"2024-10-22T15:42:06.544151728-06:00","level":"INFO","msg":"sender: started","stream_id":{"value":"e5qhwvbf"}}
+{"time":"2024-10-22T15:42:06.544126948-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"e5qhwvbf"}}
+{"time":"2024-10-22T15:42:06.54415043-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"e5qhwvbf"}}
+{"time":"2024-10-22T15:42:06.78435786-06:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-22T15:42:06.785651362-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-22T15:42:28.89142284-06:00","level":"INFO","msg":"stream: closing","id":"e5qhwvbf"}
+{"time":"2024-10-22T15:42:28.891493975-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-22T15:42:28.894897878-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-22T15:42:28.981069097-06:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-22T15:42:28.981098732-06:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-22T15:42:28.981107969-06:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-22T15:42:29.354222164-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-22T15:42:29.504969855-06:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"e5qhwvbf"}}
+{"time":"2024-10-22T15:42:29.50503339-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"e5qhwvbf"}}
+{"time":"2024-10-22T15:42:29.505051155-06:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"e5qhwvbf"}}
+{"time":"2024-10-22T15:42:29.505124382-06:00","level":"INFO","msg":"stream: closed","id":"e5qhwvbf"}

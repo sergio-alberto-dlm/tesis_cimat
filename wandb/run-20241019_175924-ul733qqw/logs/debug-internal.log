@@ -1,0 +1,21 @@
+{"time":"2024-10-19T17:59:24.869298035-06:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-19T17:59:24.869323103-06:00","level":"INFO","msg":"created symlink","path":"/home/sergio/2dgs_slam/wandb/run-20241019_175924-ul733qqw/logs/debug-core.log"}
+{"time":"2024-10-19T17:59:24.872073263-06:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-19T17:59:24.886071228-06:00","level":"INFO","msg":"created new stream","id":"ul733qqw"}
+{"time":"2024-10-19T17:59:24.886109092-06:00","level":"INFO","msg":"stream: started","id":"ul733qqw"}
+{"time":"2024-10-19T17:59:24.886148314-06:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ul733qqw"}}
+{"time":"2024-10-19T17:59:24.886137779-06:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ul733qqw"}}
+{"time":"2024-10-19T17:59:24.886152526-06:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ul733qqw"}}
+{"time":"2024-10-19T17:59:25.091981238-06:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-19T17:59:25.093314016-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-19T17:59:27.007405709-06:00","level":"INFO","msg":"stream: closing","id":"ul733qqw"}
+{"time":"2024-10-19T17:59:27.00748415-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-19T17:59:27.010536582-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-19T17:59:27.089099217-06:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-19T17:59:27.089137481-06:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-19T17:59:27.089145726-06:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-19T17:59:27.391807678-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-19T17:59:27.558140608-06:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ul733qqw"}}
+{"time":"2024-10-19T17:59:27.558225438-06:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"ul733qqw"}}
+{"time":"2024-10-19T17:59:27.558223548-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ul733qqw"}}
+{"time":"2024-10-19T17:59:27.558394666-06:00","level":"INFO","msg":"stream: closed","id":"ul733qqw"}

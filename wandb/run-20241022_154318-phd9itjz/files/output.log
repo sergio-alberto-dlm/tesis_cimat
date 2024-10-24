@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "slam.py", line 194, in <module>
+    slam = SLAM(config, save_dir=save_dir)
+  File "slam.py", line 89, in __init__
+    self.frontend.run()
+  File "/home/sergio/2dgs_slam/utils/slam_frontend.py", line 228, in run
+    render_pkg = self.tracking(cur_frame_idx, viewpoint)
+  File "/home/sergio/2dgs_slam/utils/slam_frontend.py", line 139, in tracking
+    loss_tracking = get_loss_tracking(
+  File "/home/sergio/2dgs_slam/utils/slam_utils.py", line 60, in get_loss_tracking
+    return get_loss_tracking_rgbd(config, image_ab, depth, opacity, viewpoint)
+  File "/home/sergio/2dgs_slam/utils/slam_utils.py", line 87, in get_loss_tracking_rgbd
+    l1_depth = torch.abs(depth * depth_mask - gt_depth * depth_mask)
+TypeError: unsupported operand type(s) for *: 'numpy.ndarray' and 'Tensor'
